@@ -1,8 +1,0 @@
-reverseproxy:
-  image: ahmet2mir/reverseproxy
-  ports:
-    - "443:443"
-    - "80:80"
-  volumes:
-    - /my/webapps:/webapps
-

@@ -1,7 +1,7 @@
 build:
-	docker build -t ahmet2mir/blogotext .
+	docker build -t zyra83/blogotext .
 run:
-	docker run -d -p 8080:80 -P -h blogotext --name blogotext ahmet2mir/blogotext
+	docker run -d -p 8080:80 -P -h blogotext --name blogotext zyra83/blogotext
 clean:
 	docker rm -f blogotext
 log:
